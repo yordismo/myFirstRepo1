@@ -31,6 +31,9 @@ a:link {
     margin-left: 20px;
     padding-left: 20px;
 }
+.moods{
+    margin: 20%;
+}
 ul{
     list-style-type: circle;
     padding-bottom: 20px;  

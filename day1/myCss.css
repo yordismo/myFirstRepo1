@@ -21,11 +21,14 @@ img {
     background-color: hotpink; 
     
   }
+  .logo{
+      color: white;
+  }
   .body {
       background-color: grey;
     margin-right: 50%; 
 }
-  footer {
+footer {
     background-color: lightskyblue;
     background-size: 50% ;
     border-radius: 5px;

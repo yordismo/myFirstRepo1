@@ -5,12 +5,12 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: black;
+    color:khaki;
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: rgb(150, 105, 255);
   }
   #mission{
       color: khaki;
@@ -23,6 +23,9 @@ a:link {
   .about{
     background-color:lightcoral;
     margin-right: 50%;
+    width: 400px;
+    height: 1380px;
+
 }
 
  div{
@@ -32,7 +35,7 @@ a:link {
     padding-left: 20px;
 }
 .moods{
-    margin: 20%;
+    margin: 0%;
 }
 ul{
     list-style-type: circle;

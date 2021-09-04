@@ -3,11 +3,13 @@ input[type=number], [type=text],select {
  
  }
  form{
-     margin: 0% 30% 0% 30%;
+     margin: 0% 70% 0% 0%;
      border: 3px skyblue solid;
      border-radius: 20px;
-     background-color: skyblue;
+     background-color: rgb(205, 235, 135);
      padding-left: 30px;
+     width: 500px;
+     padding-bottom: 5%;
      
  }
  input{
@@ -16,15 +18,16 @@ input[type=number], [type=text],select {
  }
  .label{
      font-weight: bold;
+     width: 600px;
  }
  input[type=submit]{
-     background-color: lightsalmon;
+     background-color:peachpuff;
      font-size: 25px;
  }
  .heading{
-     margin-left: 31%;
+     margin-left: 0;
      padding: 0%;
-     background-color: rgb(255, 252, 242);
+     background-color:white;
      margin-right: 56%;
      margin-bottom: 30px;
      margin-top: 20px;
@@ -34,9 +37,12 @@ input[type=number], [type=text],select {
  }
  h2{
      margin-top: -20px;
-     background-color: white;
+     background-color:peru;
      margin-right: 50%;
      border: 0.5px gray solid;
+     width: 300px;
+     padding-bottom: 20px;
+     margin-top: 1%;
  }
  a:link {
      color: red;
@@ -47,7 +53,8 @@ input[type=number], [type=text],select {
      color: red;
    }
    footer{
-     margin: 0% 30% 0% 30%;
+     margin: 0% 70% 0% 0%;
+     padding-top: 2%;
    }
   .img{
       width: 20px;

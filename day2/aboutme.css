@@ -23,8 +23,8 @@ a:link {
   .about{
     background-color:lightcoral;
     margin-right: 50%;
-    width: 400px;
-    height: 1380px;
+    width: 470px;
+    height: 1280px;
 
 }
 
@@ -42,7 +42,8 @@ ul{
     padding-bottom: 20px;  
 }
 .fact{
-    margin-right: 20%;
+    margin-right: 3%;
+    padding-left: 0%;
     text-decoration: underline ;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

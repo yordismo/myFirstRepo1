@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>decoratemytext</title>
+    <link rel="stylesheet" href="decor.css">
+    <script src="decor.js"></script>
+</head>
+<body>
+    <h1>Text Decorator</h1>
+    <div class="imgcontainer"></div>
+<img src="images/decorated.gif" alt="decorated image">
+    
+<fieldset>
+<legend>Text</legend>
+
+<textarea cols="30" id="textarea" placeholder="Type your text here ..." rows="4"></textarea>
+</fieldset>
+<fieldset>
+<legend>Decoration</legend>
+<label for="button"></label>
+<input onclick="interval()" type="button" value="Bigger Decorations !" /><br><br>
+<input type="checkbox" onchange="boldText()" id="bling" /> 
+<label for="checkbox1" >Bling</label>
+</fieldset><br>
+
+    <div id="validation">
+        <a class="w3" href="http://validator.w3.org/check?uri=referer" onclick="this.href='http://validator.w3.org/check?uri=' + document.URL">
+            <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+            <a class="w3" href="http://validator.w3.org/check?uri=referer" onclick="this.href='http://validator.w3.org/check?uri=' + document.URL">
+                <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+                <a class="w3" href="http://validator.w3.org/check?uri=referer" onclick="this.href='http://validator.w3.org/check?uri=' + document.URL">
+                    <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+    
+    </div>
+</body>
+</html>

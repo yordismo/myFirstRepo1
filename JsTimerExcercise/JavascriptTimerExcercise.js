@@ -1,6 +1,6 @@
 function timerExcercice(){
     setTimeout(function(){
-        alert("Hello timer start!!!");
-    },3000);
+        alert("Timer start!");
+    },1000);
     
 }

@@ -1,22 +1,16 @@
-function hello() {
-    alert("Hello, World!");
-}
-
-function interval() {
-    var id = setInterval(enlargeText, 1000);
-    setTimeout(clearInterval, 5000, id);
-}
-function boldText() {
-    if (document.getElementById("bling").checked == true) {
-        document.getElementById("textarea").style.fontWeight = "bold";
-        document.getElementById("textarea").style.color = "red";
-        document.getElementById("textarea").style.textDecoration = "underline";
-       // document.body.style.backgroundImage = 'url("http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg")';
-    } else {
-        document.getElementById("textarea").style.fontWeight = "";
-        document.getElementById("textarea").style.color = "";
-        document.getElementById("textarea").style.textDecoration = "";
-        document.body.style.backgroundImage = "";
-
+// function alert1(){
+    //     alert("Hello, world!");
+    // } 
+    function alert1(){
+    document.getElementById("text").style.fontSize = "24pt";
     }
-}
+    // function alert2(){
+    //     alert("hi");
+    // }
+    function alert2(){
+        
+        // $("check").attr("checkbox");
+        document.getElementById("text").style.fontWeight = "bold";
+        document.getElementById("text").style.color = "green";
+        document.getElementById("text").style.textDecoration = "underline";
+    }

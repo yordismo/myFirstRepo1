@@ -1,16 +1,16 @@
 // function alert1(){
     //     alert("Hello, world!");
     // } 
-    function alert1(){
-    document.getElementById("text").style.fontSize = "24pt";
+    function change1(){
+    document.getElementById("big").style.fontSize = "24pt";
     }
     // function alert2(){
     //     alert("hi");
     // }
-    function alert2(){
+    function change2(){
         
         // $("check").attr("checkbox");
-        document.getElementById("text").style.fontWeight = "bold";
-        document.getElementById("text").style.color = "green";
-        document.getElementById("text").style.textDecoration = "underline";
+        document.getElementById("big").style.fontWeight = "bold";
+        document.getElementById("big").style.color = "green";
+        document.getElementById("big").style.textDecoration = "underline";
     }

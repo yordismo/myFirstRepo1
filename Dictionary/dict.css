@@ -9,10 +9,12 @@ header{
 }
  
 h1{
-    background-color: rgb(223, 109, 16);
+    background-color:plum;
     margin-top: 0px;
     padding: 0px;
     height: 100%;
+    border-radius: 10px;
+
 }
  
 div.word{
@@ -21,7 +23,7 @@ div.word{
 }
  
 label {
-    color: black;
+    color: rgb(13, 101, 233);
     font-weight: bold;
     display: block;
     width: 150px;
@@ -61,7 +63,7 @@ input[type=text] {
   }
  
   button:hover {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.466);
   }
  
   p{
@@ -72,7 +74,7 @@ input[type=text] {
   }
  
   body {
-    background-color:lightsalmon;
+    background-color:palevioletred;
   }
 
 

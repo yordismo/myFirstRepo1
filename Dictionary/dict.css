@@ -3,20 +3,20 @@
     padding: 0%;
 }
 header{
-    background: #1abc9c;
+    background: #381abc;
     color:green;
     font-size: 25px;
 }
  
 h1{
-    background-color: rgb(211, 171, 211);
+    background-color: rgb(223, 109, 16);
     margin-top: 0px;
     padding: 0px;
     height: 100%;
 }
  
 div.word{
-    background-color: lightgray;
+    background-color: rgb(164, 12, 184);
     margin-top: 0%;
 }
  
@@ -44,7 +44,7 @@ input[type=text] {
  
   button {
     display: inline-block;
-    background-color: 4CAF50;
+    background-color: #b2bebe;
     border-radius: 10px;
     border: 4px double #cccccc;
     color: #eeeeee;
@@ -61,7 +61,7 @@ input[type=text] {
   }
  
   button:hover {
-    background-color: blanchedalmond;
+    background-color: red;
   }
  
   p{
@@ -72,7 +72,7 @@ input[type=text] {
   }
  
   body {
-    background-color: hsla(89, 43%, 51%, 0.3);
+    background-color:lightsalmon;
   }
 
 
